@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=sw");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+    max-width: 1050px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 25px;
+    height: 150px;
+    border-color: black white;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(34, 139, 34, 0.116);
+}
+
+.header .logo_description {
+    margin-left: 30px;
+    display: grid;
+    width: 173px;
+    height: 150px;
+    text-align: center;
+}
+
+.header .logo_description h4 {
+    font-family: 'Lobster';
+    color: rgb(53, 167, 110);
+    font-size: 20px;
+    height: 40px;
+    margin-top: 5px;
+    text-shadow: 1px 1px black;
+}
+
+.header .logo_description img {
+    margin-top: 10px;
+    width: 173px;
+    height: 70px;
+    border-radius: 23px;
+    align-self: center;
+    animation: flicker 3s infinite;
+}
+
+@keyframes flicker {
+    0% {
+        box-shadow: 0 0 4px 4px rgba(209, 74, 12, 0);
+    }
+    50% {
+        box-shadow: 0 0 4px 4px rgba(209, 74, 12, 0.473);
+    }
+    100% {
+        box-shadow: 0 0 4px 4px rgba(209, 74, 12, 0);
+    }
+}
+
+.header .contact {
+    margin-left: auto;
+    margin-right: 10px;
+    display: grid;
+    width: 250px;
+    height: 150px;
+}
+
+.header .contact button {
+    text-shadow: 1px 1px black;
+    margin-top: -35px;
+    justify-self: center;
+    font-family: 'Lobster';
+    font-size: 21px;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 55px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+}
+
+.header .contact button:hover {
+    background: rgb(53, 167, 110);
+}
+
+.header .contact h4 {
+    margin-top: 35px;
+    height: 26px;
+    width: 250px;
+    text-align: center;
+    font-family: 'Lobster';
+    font-size: 23px;
+}
+
+.under_header {
+    max-width: 1050px;
+    min-width: 700px;
+    height: 480px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(178, 235, 242, 0.747);
+    border-color: white black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.under_header h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    margin-top: 15px;
+    color: rgb(53, 167, 110);
+    text-shadow: 1px 1px black;
+}
+
+.under_header .under_titel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+}
+
+.under_header .under_titel img {
+    margin-left: 25px;
+    border-radius: 50%;
+    animation: bluring 8s infinite;
+}
+
+@keyframes bluring {
+    0% {
+        filter: blur(0px);
+    }
+    30% {
+        filter: blur(2px);
+    }
+    100% {
+        filter: blur(0px);
+    }
+}
+
+.under_header .under_header_form {
+    display: grid;
+    margin-left: auto;
+    margin-right: 15px;
+    height: 300px;
+    width: 350px;
+}
+
+.under_header .under_header_form h4 {
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(53, 167, 110);
+    text-shadow: 1px 1px black;
+}
+
+.under_header .under_header_form span {
+    color: rgb(165, 42, 42);
+}
+
+.under_header .under_header_form button {
+    margin-left: 50px;
+    text-shadow: 1px 1px black;
+    margin-bottom: auto;
+    font-family: 'Lobster';
+    font-size: 21px;
+    color: white;
+    border-radius: 5px;
+    width: 250px;
+    height: 55px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+}
+
+.under_header .under_header_form button:hover {
+    background: rgb(53, 167, 110);
+}
+
+.body_inf {
+    box-shadow: 1px 1px 3px 3px #777;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-image: url("img/header.jpg");
+    max-width: 1050px;
+    min-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+.body_inf .contact_form {
+    position: relative;
+    top: 50px;
+    left: 25px;
+    display: block;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+}
