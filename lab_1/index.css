@@ -178,6 +178,8 @@
 }
 
 .body_inf {
+    display: flex;
+    flex-direction: row;
     box-shadow: 1px 1px 3px 3px #777;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -190,11 +192,93 @@
 }
 
 .body_inf .contact_form {
-    position: relative;
-    top: 50px;
-    left: 25px;
-    display: block;
-    background-color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+    display: grid;
     width: 300px;
     height: 400px;
+    border-radius: 5px;
+    background-color: rgba(21, 101, 192, 0.678);
+}
+
+.body_inf .contact_form .header_form {
+    display: flex;
+    flex-direction: row;
+    width: 295px;
+    height: 50px;
+    justify-content: center;
+    border-style: double;
+    border-color: black rgba(255, 255, 255, 0);
+    border-width: 2px;
+}
+
+.body_inf .contact_form .header_form h4 {
+    margin-top: 15px;
+    margin-left: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.body_inf .contact_form .form {
+    display: grid;
+    width: 300px;
+    height: 340px;
+    margin-bottom: 10px;
+}
+
+.body_inf .contact_form .form input {
+    margin-left: 25px;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.61);
+    background-color: rgba(255, 255, 255, 0.226);
+    font-family: 'Roboto Slab', serif;
+}
+
+.body_inf .contact_form .form .name {
+    margin-top: 50px;
+    margin-left: 25px;
+    width: 250px;
+    height: 35px;
+}
+
+.body_inf .contact_form .form button {
+    width: 200px;
+    height: 40px;
+    justify-self: center;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.61);
+    background-color: rgba(0, 0, 139, 0.349);
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.body_inf .contact_form .form button:hover {
+    background-color: rgba(0, 0, 139, 0.514);
+}
+
+.body_inf .body_txt {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.body_inf .body_txt h4 {
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(53, 167, 110);
+    text-shadow: 1px 1px black;
+}
+
+.body_inf .body_txt span {
+    color: hsla(0, 100%, 50%, 0.459);
 }
