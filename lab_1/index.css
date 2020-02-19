@@ -24,7 +24,7 @@
     text-align: center;
 }
 
-.header .logo_description h4 {
+.header .logo_description h1 {
     font-family: 'Lobster';
     color: rgb(53, 167, 110);
     font-size: 20px;
@@ -103,7 +103,7 @@
     border-style: solid;
 }
 
-.under_header h1 {
+.under_header h2 {
     text-align: center;
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
