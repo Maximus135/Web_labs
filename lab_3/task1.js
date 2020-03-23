@@ -1,7 +1,6 @@
 const ITMO_BORN_YEAR = 1990;
 const ITMO_BORN_MONTH = 3;
 const ITMO_BORN_DAY = 26;
-
 let conver_number_string = {
     1: 'Jan',
     2: 'Feb',
@@ -16,7 +15,6 @@ let conver_number_string = {
     11: 'Nov',
     12: 'Dec',
 };
-
 let itmoBornDate = {
     mon: ITMO_BORN_MONTH,
     day: ITMO_BORN_DAY,
@@ -32,5 +30,4 @@ let itmoBornDate = {
         return 0;
     },
 };
-
 console.log(itmoBornDate.toDateString()); // Mon Mar 26 1990

@@ -7,5 +7,4 @@ let sum = {
         return sum;
     },
 };
-
 console.log(sum.call([5, 5, 5, 5, 5, 5, 5, 5, 5]));
