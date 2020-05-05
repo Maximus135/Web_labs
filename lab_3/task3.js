@@ -24,5 +24,5 @@ let isEquivalent = function(object1, object2) {
     }
     return true;
 };
-console.log(isEquivalent(object1, object2)); // true
+console.log(isEquivalent(object1, object2)); // false
 console.log(isEquivalent(object1, object3)); // false
