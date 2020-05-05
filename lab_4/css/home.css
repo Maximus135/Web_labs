@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.wrapper {
+    min-width: 500px;
+    width: 100%;
+}
+
+.wrapper .line_menu {
+    display: flex;
+    min-width: 500px;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(132, 172, 218);
+}
+
+.wrapper .line_menu .logo {
+    display: block;
+    width: 150px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.wrapper .line_menu .main_but {
+    position: absolute;
+    display: block;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    right: 20px;
+    left: auto;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.wrapper .line_menu .main_but:hover {
+    color: rgb(230, 93, 15);
+}
+
+.wrapper .line_menu .pokemon_but {
+    position: absolute;
+    display: block;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    right: 150px;
+    left: auto;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.wrapper .line_menu .pokemon_but:hover {
+    color: rgb(230, 93, 15);
+}
+
+.wrapper .wrapper_card {
+    margin-top: 200px;
+    width: 100%;
+    min-width: 500px;
+    height: 400px;
+}
+
+.wrapper .wrapper_card .card {
+    width: 490px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 6px 15px 13px rgba(128, 128, 128, 0.411);
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .wrapper_card .card .photo_inf {
+    width: 490px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .wrapper_card .card .photo_inf .photo {
+    width: 180px;
+    height: 250px;
+}
+
+.wrapper .wrapper_card .card .photo_inf .info_right {
+    width: 310px;
+    height: 250px;
+    text-align: center;
+}
+
+.wrapper .wrapper_card .card .photo_inf .info_right .name_inf {
+    width: 310px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .wrapper_card .card .photo_inf .info_right .name_inf .name {
+    margin-top: 45px;
+    font-size: 40px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper .wrapper_card .card .photo_inf .info_right .name_inf .second_name {
+    margin-top: 45px;
+    font-size: 40px;
+    margin-left: 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper .wrapper_card .card .photo_inf .info_right .phone_inf {
+    width: 310px;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .wrapper_card .card .photo_inf .info_right .phone_inf .phone_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.wrapper .wrapper_card .card .photo_inf .info_right .phone_inf .phone{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.wrapper .wrapper_card .card .photo_inf .info_right .line{
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 3px;
+    width: 310px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+}
+
+.wrapper .wrapper_card .card .info{
+    width: 490px;
+    height: 150px;
+    text-align: center;
+}
+
+.wrapper .wrapper_card .card .info .email_inf{
+    width: 490px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .wrapper_card .card .info .email_inf .email_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.wrapper .wrapper_card .card .info .email_inf .email{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.wrapper .wrapper_card .card .info .git_inf{
+    width: 490px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .wrapper_card .card .info .git_inf .git_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.wrapper .wrapper_card .card .info .git_inf .git{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 2px;
+}

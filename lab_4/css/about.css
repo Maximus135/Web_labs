@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.wrap{
+    min-width: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+.wrap .line_menu {
+    display: flex;
+    min-width: 500px;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(132, 172, 218);
+}
+
+.wrap .line_menu .logo {
+    display: block;
+    width: 150px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.wrap .line_menu .main_but {
+    position: absolute;
+    display: block;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    right: 20px;
+    left: auto;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.wrap .line_menu .main_but:hover {
+    color: rgb(230, 93, 15);
+}
+
+.wrap .line_menu .pokemon_but {
+    position: absolute;
+    display: block;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    right: 150px;
+    left: auto;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.wrap .line_menu .pokemon_but:hover {
+    color: rgb(230, 93, 15);
+}
+
+.wrap .wrap_card{
+    margin-top: 200px;
+    width: 100%;
+    min-width: 500px;
+    height: 400px;
+}
+
+.wrap .wrap_card .card{
+    width: 490px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 6px 15px 13px rgba(128, 128, 128, 0.411);
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+}
+
+.wrap .wrap_card .card .line{
+    width: 490px;
+    height: 3px;
+    background-color: black;
+}
+
+.wrap .wrap_card .card .photo_name{
+    width: 490px;
+    height: 122px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap .wrap_card .card .photo_name .photo{
+    width: 125px;
+    height: 122px;
+}
+
+.wrap .wrap_card .card .photo_name .name{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
+
+.wrap .wrap_card .card .effect{
+    width: 490px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap .wrap_card .card .effect .titel{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 0px
+}
+
+.wrap .wrap_card .card .effect .info_effect{
+    width: 470px;
+    margin-left: 10px;
+    height: 75px;
+    margin-top: 1px;
+    background-color: orange;
+    border: none;
+    resize: none;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
