@@ -12,7 +12,7 @@ export function Router (routes) {
     console.error (e);
   }
 }
-
+// 123
 Router.prototype = {
   constructor: function (routes) {
     this.routes = routes;
