@@ -2,4 +2,5 @@
 + Верстка Landing Page
 + Эффективная анимация
 + Основы JavaScript
++ Создание Single page application
 ###### Башилов Максим M3306 ######

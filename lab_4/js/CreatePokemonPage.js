@@ -1,4 +1,4 @@
-const fetchPokemon = async () => {
+export const fetchPokemon = async () => {
   let number = 1 + Math.random () * 233; // получить рандомного покемона
   number = Math.floor (number);
   const ability_url = 'https://pokeapi.co/api/v2/ability/' + number;
