@@ -9,13 +9,23 @@ export const fetchPokemon = async () => {
     });
 
   const name_url = 'https://pokeapi.co/api/v2/pokemon/' + number;
-  let name = await fetch (name_url).then (res => res.json ()).then (data => {
-    return data.name; // получить имя покемона
-  });
 
-  let img = await fetch (name_url).then (res => res.json ()).then (data => {
-    return data.sprites.front_default; // получить фото покемона
-  });
+  let {name, sprites} = await fetch (name_url)
+    .then (res => res.json ())
+    .then (data => {
+      return data; // получить имя покемона
+    });
+
+  let img = sprites.front_default;
+
+  // let name = await fetch (name_url).then (res => res.json ()).then (data => {
+  //   return data.name; // получить имя покемона
+  // });
+
+  // let img = await fetch (name_url).then (res => res.json ()).then (data => {
+  //   return data.sprites.front_default; // получить фото покемона
+  // });
+
   //console.log (img);
   document.getElementById ('name').innerHTML = name;
   let img_html = document.getElementById ('photo');
